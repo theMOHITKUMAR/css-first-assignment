@@ -1,0 +1,33 @@
+/* here we have added external css which is benefical if we want to apply one same css to other html pages too. */
+.body1{
+    background-color:#000000;
+}
+.body_head-centrealign{
+    text-align:center;
+    letter-spacing: 100px;
+    color: white;
+    text-decoration:line-through;
+    text-transform:uppercase;
+}
+.p-color{
+    color: burlywood;
+
+}
+.h2-decoration{
+    text-decoration: underline;
+    color: blue;
+}
+.div-decor{
+    text-align: center;
+    color: mediumvioletred;
+}
+.div_img-dim img{
+    border-radius: 100%;
+}
+#h2second{
+    color: black;
+}
+.div2{
+    color: chocolate;
+    text-align: center;
+}

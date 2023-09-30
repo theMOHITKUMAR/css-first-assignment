@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-up</title>
+    <meta name="description" content="this is sign-up form of a website.">
+    <link rel="shortcut icon" href="./delhi.jpeg" type="image/x-icon">
+    <style>
+        .body1{
+            background-color: aquamarine;
+        }
+        .mainheading__title--textmodifications{
+            color: brown;
+            text-align: center;
+            text-decoration: underline;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            background-color: aquamarine;
+        }
+         .signupinfo,.pinfoblock{
+            background-color: chocolate;
+            padding:5px;
+
+         }
+         .signup__button--bcolor{
+            background-color: chartreuse;
+            text-align: center;
+         }
+         .gettinginfo__name--underline,.gettinginfo__phnumber--underline,.gettinginfo__gender--underline,.pinfo__password--underline,.pinfo__account--underline{
+            text-decoration: underline;
+            font-weight: bold;
+         }
+         .gettinginfo__fname--color,.gettinginfo__lname--color,.gettinginfo__phnumberinput--bcolor,.pinfo__accountinput--bcolor,.pinfo__passowrdinput--bcolor{
+            background-color: cadetblue;
+         }
+    </style>
+</head>
+<body class="body1">
+    <div class="mainheading">
+        <h1 class="mainheading__title--textmodifications">sign-up</h1>
+    </div>
+    <div class="signupinfo">
+        <form  action="" method="get">
+               <fieldset class="gettinginfo">
+                <legend>general information</legend>
+                <label  class="gettinginfo__name--underline" for="name">Name:</label>
+                <label for="first name">first name</label>
+                <input class="gettinginfo__fname--color" type="text" name="f_name" id="first name" maxlength="30" required placeholder="mohit">
+                <label for="last name">last name</label>
+                <input class="gettinginfo__lname--color" type="text" name="l_name" id="last name" maxlength="30" required placeholder="kumar">
+                <br><br>
+                <label class="gettinginfo__phnumber--underline" for="phone number">Phone number</label>
+                <input class="gettinginfo__phnumberinput--bcolor" type="tel" name="p_number" id="phone number" required max="10" placeholder="1234567890">
+                <br><br>
+                <label class="gettinginfo__gender--underline" for="gender">Gender:</label>
+                <input  type="radio" name="gender" id="male" value="m">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female" value="f">
+                <label for="female">Female</label>
+            </fieldset>
+    </div>
+    <br><br>
+    <div class="pinfoblock">
+            <fieldset class="pinfo">
+                <legend>Private information</legend>
+                <label class="pinfo__password--underline" for="password">Password:</label>
+                <input class="pinfo__passowrdinput--bcolor" type="password" name="password" id="password" minlength="8" required placeholder="12345678">
+                <br><br>
+                <label class="pinfo__account--underline" for="account">Account No:</label>
+                <input class="pinfo__accountinput--bcolor" type="text" name="accountno" id="account" maxlength="25" required placeholder="123536abdgrhhdh3345">
+                
+            </fieldset>
+    </div>   
+    <br><br>
+    <button class="signup__button--bcolor" type="submit">Sign-up</button>     
+        </form>
+    
+</body>
+</html>
+

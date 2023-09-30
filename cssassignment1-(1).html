@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ways to add css</title>
+    <!-- description of the page. -->
+    <meta name="description" content="this page is about how to add css in diffeent ways">
+    <!-- /icon is added  -->
+    <link rel="shortcut icon" href="./bridge.jpeg" type="image/x-icon">
+    <!-- adding link of external css file -->
+    <link rel="stylesheet" href="./cssassignment1-(1).css">
+    <!-- here in the head section we are adding internal css or embedded css. -->
+    <style>
+        /* here we add to body that will apply to whole browser screen. */
+        .body1{
+            background-color:black;
+        }
+        #body123{
+            background-color: aqua;
+        }
+        /* we use . for the class selctor */
+        .body_head-centrealign{
+            text-align:left;
+            letter-spacing: 10px;
+            color: brown;
+            text-decoration:none;
+            text-transform:lowercase;
+        }
+        .p-color{
+            color: brown;
+
+        }
+        .h2-decoration{
+            text-decoration: underline;
+            color: darkgreen;
+        }
+        .div-decor{
+            text-align: justify;
+            color: mediumvioletred;
+        }
+        .div_img-dim img{
+            border-radius: 50%;
+        }
+        /*  we use # for id selector. */
+        #h2second{
+            color: darkgreen;
+        }
+        .div2{
+            color: chocolate;
+            text-align: justify;
+        }
+        /* /here css is added to class within class element */
+        .div2 .div2_p-color{
+            color: darkmagenta;
+        }
+    </style>
+</head>
+<body class="body1" id="body123">
+    <!-- here in h1 we use inline and internal and external css , priority goes to inline. -->
+    <!-- inline css is added by writing style attribute in the opening tag  -->
+    <h1 class="body_head-centrealign" style="text-align:center; letter-spacing: 2px; color: blue;text-decoration: underline; text-shadow: 2px 1px black;">welcome to the page</h1>
+  <!--  for all these below thag we add css by internal and external css and priority goes to internal css or embedded css. -->
+    <p class="p-color">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, amet.</p>
+    <h2 class="h2-decoration">Introduction</h2>
+    <div class="div-decor">
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, commodi. Possimus autem quidem facilis accusantium veniam aliquam dicta nesciunt magni.</p>
+    <div class="div_img-dim">
+          <!-- here we use the div tag to access image css  and other elements if present.-->
+        <img  src="./birds.jpeg" alt="this is a birds picture over ocean">
+      
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, soluta.</p>
+     </div>
+    <h2 id="h2second">Effects</h2>
+    <div class="div2">
+        <!-- /making class within class -->
+        <p class="div2_p-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea dolorum rerum neque quasi explicabo quisquam vel quae illum accusantium, odio fugit blanditiis excepturi quos dolor reprehenderit saepe! Adipisci, corrupti iure at ratione debitis ab, placeat maiores sequi, ipsum consequuntur atque.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, illum?</p>
+    </div>
+</body>
+</html>
